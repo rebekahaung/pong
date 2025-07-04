@@ -1,7 +1,7 @@
 # Pong SDL2 Game
 
 
-This is a custom implementation of the classic Pong game built with C++ and SDL2/SDL_ttf. The game includes a welcome screen, player mode selection, AI difficulty levels, a countdown, pause/resume functionality, and a clickable restart button.
+This is a custom implementation of the classic Pong game built with C++ and SDL2/SDL_ttf.
 
 ## Features
 
@@ -37,7 +37,8 @@ clang++ main.cpp -o pong -std=c++11 \
 Launch the game:
 ./pong
 
-Controls
+Controls:
+
 W / S: Move Player 1 paddle
 
 ↑ / ↓: Move Player 2 or AI paddle (if 2-player)
