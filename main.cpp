@@ -137,7 +137,7 @@ int main() {
     Uint32 countdownStart = 0;
     
 
-    SDL_Rect restartBtn = {0, 0, 0, 0};  // Will be updated dynamically
+    SDL_Rect restartBtn = {0, 0, 0, 0}; 
 
     auto resetGame = [&]() {
         score1 = 0;
