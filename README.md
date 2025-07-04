@@ -25,6 +25,10 @@ This is a custom implementation of the classic Pong game built with C++ and SDL2
 - C++ compiler supporting C++11
 
 ## Setup (macOS - Homebrew Path)
+## Download:
+
+main.cpp
+arial.ttf
 
 ## Install dependencies:
 
