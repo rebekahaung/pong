@@ -26,18 +26,21 @@ This is a custom implementation of the classic Pong game built with C++ and SDL2
 
 ## Setup (macOS - Homebrew Path)
 
-Install dependencies:
+##Install dependencies:
+
 brew install sdl2 sdl2_ttf
 
-Compile the game:
+##Compile the game:
+
 clang++ main.cpp -o pong -std=c++11 \
   -I/opt/homebrew/include/SDL2 -D_THREAD_SAFE \
   -L/opt/homebrew/lib -lSDL2 -lSDL2_ttf
 
-Launch the game:
+##Launch the game:
+
 ./pong
 
-Controls:
+##Controls:
 
 W / S: Move Player 1 paddle
 
